@@ -6,7 +6,7 @@ const ItemsList = ({ items }) => (
   <ul className={css.list}>
     {items.map(({ id, avatar, link, login, name, bio, location, email }) => (
       <li key={id} className={css.listItem}>
-        <img href={avatar} alt="avatar" className={css.avatar} />
+        <img src={avatar} alt="avatar" className={css.avatar} />
         <a
           href={link}
           target="_blank"
